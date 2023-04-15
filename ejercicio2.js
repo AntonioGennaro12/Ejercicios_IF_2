@@ -15,7 +15,7 @@ const TIPO_CAMBIO_ETH = 13.54;
 const TIPO_CAMBIO_DOL = 39685.40;
 
 let monedaIngresada = prompt("Ingrese el tipo de moneda que quiere cambiar");
-let montoIngresado = prompt ("Ingrese el monto que quiere cambiar");
+let montoIngresado = parseInt(prompt ("Ingrese el monto que quiere cambiar"));
 let monedaACambiar = prompt ("Ingrese la moneda a la cual quiere cambiar");
 
 if ((monedaIngresada == MONEDA_ACEPTADA) && ((monedaACambiar == MONEDA_CAMBIO_ETH)||(monedaACambiar==MONEDA_CAMBIO_DOL))) {
